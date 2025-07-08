@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premchand Kumar Sahu Photography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #111;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #000;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .logo span {
+            color: #f44336;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            color: #f44336;
+        }
+
+        .contact-btn {
+            background:linear-gradient(#f30166,#1f0adb);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition:  transform 0.3s ease-in;
+        }
+        .contact-btn:hover{
+            transform: scale(1.1);
+            background:linear-gradient( #1f0adb,#f44336);
+        }
+
+        .main-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 50px;
+            background-color: #111;
+        }
+
+        .text-content h3 {
+            color: #f44336;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .text-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .portfolio-btn {
+            background:linear-gradient(#f44336,rgb(80, 72, 172));
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+
+        }
+        .portfolio-btn:hover{
+            transform: scale(1.2);
+            background: transparent;
+        }
+
+        .photo img {
+            width: 350px;
+            border-radius: 20px;
+            filter: grayscale(100%);
+            border: 2px solid brown;
+            transition: transform 0.5s ease-in;
+        }
+
+        .photo img:hover {
+            transform: scale(1.05);
+
+        }
+
+        .footer-section {
+            padding: 50px;
+            background-color: #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .footer-section h2 {
+            font-size: 24px;
+        }
+
+        .quote {
+            max-width: 400px;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .quote-author {
+            margin-top: 10px;
+            font-size: 13px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Photo<span>graphy</span></div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+        <button class="contact-btn">CONTACT NOW</button>
+    </nav>
+
+    <div class="main-section">
+        <div class="text-content">
+            <h3>CREATIVE PHOTOGRAPHEY</h3>
+            <h1>PHOTOGRAPHY <br> MAKE US HAPPY <br> TAKE A SHOT.</h1>
+            <button class="portfolio-btn">WATCH PORTFOLIO</button>
+        </div>
+        <div class="photo">
+            <img src="prem.png.jpg" alt="Premchand Kumar Sahu">
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <div>
+            <h2>HOW WE MAKE<br>USER EXPERIENCES</h2>
+        </div>
+        <div class="quote">
+            <p>You can't use up creativity. The more you use, the more you have in your significant mind.</p>
+            <div class="quote-author">
+                SALVADOR DALI <br>
+                Digital Artist
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
